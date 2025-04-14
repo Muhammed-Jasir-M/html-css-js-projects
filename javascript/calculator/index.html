@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>calculator</h1>
+        <div class="calculator">
+
+            <div class="output">
+                <input type="text" id="screen">
+            </div>
+            <div class="button">
+                <div class="row1">
+                    <button class="btn clearBtn" onclick="clearBtn()">AC</button>
+                    <button class="btn delBtn" onclick="delBtn()">C</button>
+                    <button class="btn opBtn" onclick="btnClick('%')">%</button>
+                    <button class="btn opBtn" onclick="btnClick('/')">/</button>
+                </div>
+                <div class="row2">
+                    <button class="btn" onclick="btnClick('7')">7</button>
+                    <button class="btn" onclick="btnClick('8')">8</button>
+                    <button class="btn" onclick="btnClick('9')">9</button>
+                    <button class="btn opBtn" onclick="btnClick('*')" style="padding-top: 30px;">*</button>
+                </div>
+                <div class="row3">
+                    <button class="btn" onclick="btnClick('4')">4</button>
+                    <button class="btn" onclick="btnClick('5')">5</button>
+                    <button class="btn" onclick="btnClick('6')">6</button>
+                    <button class="btn opBtn" onclick="btnClick('-')">-</button>
+                </div>
+                <div class="row4">
+                    <button class="btn" onclick="btnClick('3')">3</button>
+                    <button class="btn" onclick="btnClick('2')">2</button>
+                    <button class="btn" onclick="btnClick('1')">1</button>
+                    <button class="btn opBtn" onclick="btnClick('+')">+</button>
+                </div>
+
+                <div class="row5">
+                    <button class="btn" onclick="btnClick('0')">0</button>
+                    <button class="btn" onclick="btnClick('00')">00</button>
+                    <button class="btn" onclick="btnClick('.')">.</button>
+                    <button class="btn equalBtn" onclick="equalBtn()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

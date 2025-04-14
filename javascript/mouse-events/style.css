@@ -1,0 +1,12 @@
+#myBox {
+    font-family: arial ;
+    width: 300px;
+    height: 300px;
+    background-color: lightgreen;
+    font-size: 4rem;
+    font-weight: bold;
+    color: darkblue;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
